@@ -12,7 +12,7 @@ struct ChangeLimitView: View {
   var body: some View {
     VStack(alignment: .leading, spacing: 8) {
       Text("Your daily step goal").font(.title2)
-      TextField("10000", value: $dailyStepGoal, formatter: NumberFormatter())
+      TextField("100000", value: $dailyStepGoal, formatter: NumberFormatter())
         .font(.body)
         .foregroundColor(.green)
         .textFieldStyle(RoundedBorderTextFieldStyle())
